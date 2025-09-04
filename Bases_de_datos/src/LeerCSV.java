@@ -5,7 +5,7 @@ import java.io.IOException;
 public class LeerCSV {
     public static void main(String[] args) {
 
-        String archivoCSV = "C:\\Users\\eduar\\Downloads\\codigos_postales_hmo.csv";
+        String archivoCSV =  "codigos_postales_hmo.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(archivoCSV))) {
 
